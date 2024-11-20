@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "992263025803",
+    "project_id": "upc-proyects-e6ff1",
+    "storage_bucket": "upc-proyects-e6ff1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992263025803:android:01479a66a0cd0fdbf7908e",
+        "android_client_info": {
+          "package_name": "com.example.proyectoupc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDimhw2WJMiHxG8r23uMJkQs4wHpYcdiPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
