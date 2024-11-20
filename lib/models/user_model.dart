@@ -4,8 +4,8 @@ class UserModel {
   final String lastName;
   final String phone;
   final String email;
-  final String role; // Rol por defecto
-  String? profileImageUrl; // Imagen de perfil opcional
+  final String role; // Rol (student, teacher, admin)
+  String? profileImageUrl; 
   DateTime? createdAt; // Fecha de creación
 
   UserModel({

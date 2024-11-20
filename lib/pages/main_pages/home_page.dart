@@ -1,5 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:proyectoupc/pages/main_pages/profile_page.dart';
+import 'package:proyectoupc/pages/project_pages/my_projects_page.dart';
+import 'package:proyectoupc/pages/project_pages/projects_page.dart';
 import 'package:proyectoupc/pages/widget/menu_drawer.dart';
 
 import '../../controllers/auth_controller.dart';
@@ -22,7 +24,11 @@ class _HomePageState extends State<HomePage> {
   final List<int> _pageHistory = [];
 
   // Lista de las páginas
-  final List<Widget> _pages = [EditProfilePage()];
+  final List<Widget> _pages = [
+    ProjectsPage(),
+    MyProjectsPage(),
+    EditProfilePage()
+  ];
 
   // Cambiar página y almacenar el índice anterior en el historial
   void changePage(int index) {
